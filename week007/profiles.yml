@@ -1,0 +1,9 @@
+week007:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: TRAINING_ROLE
+      warehouse: DATA_5035_2026
+      database: DATA5035
+      schema: SPRING26
