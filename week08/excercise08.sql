@@ -20,13 +20,13 @@ USE SCHEMA FOX;
 --    is tied to a date, a facility, a product, and a batch.
 
 /**
-| Metric                | Description                          | Date | Facility | Product | Batch |
-|-----------------------|--------------------------------------|------|----------|---------|-------|
-| Material Cost         | cost of raw ingredient per batch     |  X   |    X     |    X    |   X   |
-| Labor Cost            | Operator hours and wages per batch    |  X   |    X     |    X    |   X   |
-| Overhead Cost         | equipment, utilitis, cleaningroom fees  |  X   |    X     |    X    |   X   |
-| QC Test Cost          | Testing and failure investigation     |  X   |    X     |    X    |   X   |
-| Cost Variance         | Actual cost minus standard cost       |  X   |    X     |    X    |   X   |
+| Metric                | Description                            | Date | Facility | Product | Batch |
+|-----------------------|------------------------------------  --|------|----------|---------|-------|
+| Material Cost         | cost of raw ingredient per batch       |  X   |    X     |    X    |   X   |
+| Labor Cost            | Operator hours and wages per batch     |  X   |    X     |    X    |   X   |
+| Overhead Cost         | equipment, utilitis, cleaningroom fees |  X   |    X     |    X    |   X   |
+| QC Test Cost          | Testing and failure investigation      |  X   |    X     |    X    |   X   |
+| Cost Difference       | Actual cost minus standard cost        |  X   |    X     |    X    |   X   |
 **/
 
 --  2: Dimensional Star Schema
